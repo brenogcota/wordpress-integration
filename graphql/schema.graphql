@@ -14,6 +14,7 @@ type WPPost {
   author(customDomain: String): WPUser
   excerpt: WPExcerpt
   featured_media(customDomain: String): WPMedia
+  featured_image: String
   comment_status: WPOpenClosed
   ping_status: WPOpenClosed
   format: WPFormat
